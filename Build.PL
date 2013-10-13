@@ -17,7 +17,7 @@ my %module_build_args = (
     "Shlomi Fish <shlomif\@cpan.org>"
   ],
   "dist_name" => "Dist-Zilla-Plugin-Test-TrailingSpace",
-  "dist_version" => "0.0.1",
+  "dist_version" => "0.0.2",
   "license" => "mit",
   "module_name" => "Dist::Zilla::Plugin::Test::TrailingSpace",
   "recommends" => {},
