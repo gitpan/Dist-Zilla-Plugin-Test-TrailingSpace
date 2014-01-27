@@ -1,6 +1,8 @@
 package Dist::Zilla::Plugin::Test::TrailingSpace;
 
-our $VERSION = '0.0.2';
+our $VERSION = '0.0.3';
+
+use 5.012;
 
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
@@ -37,7 +39,7 @@ in files.
 
 =head1 VERSION
 
-version 0.0.2
+version 0.0.3
 
 =head1 SYNOPSIS
 
