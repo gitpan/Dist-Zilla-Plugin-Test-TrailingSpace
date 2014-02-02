@@ -23,7 +23,7 @@ name: Dist-Zilla-Plugin-Test-TrailingSpace
 provides:
   Dist::Zilla::Plugin::Test::TrailingSpace:
     file: lib/Dist/Zilla/Plugin/Test/TrailingSpace.pm
-    version: v0.0.3
+    version: v0.0.4
 requires:
   Dist::Zilla::Plugin::InlineFiles: 0
   Dist::Zilla::Role::PrereqSource: 0
@@ -33,4 +33,4 @@ requires:
 resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Dist-Zilla-Plugin-Test-TrailingSpace
   repository: ssh://hg@bitbucket.org/shlomif/perl-Dist-Zilla-Plugin-Test-TrailingSpace
-version: 0.0.3
+version: 0.0.4

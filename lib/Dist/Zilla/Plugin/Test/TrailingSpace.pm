@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::Test::TrailingSpace;
 
-our $VERSION = '0.0.3';
+our $VERSION = '0.0.4';
 
 use 5.012;
 
@@ -32,6 +32,8 @@ __PACKAGE__->meta->make_immutable;
 
 =pod
 
+=encoding UTF-8
+
 =head1 NAME
 
 Dist::Zilla::Plugin::Test::TrailingSpace - test for trailing whitespace
@@ -39,7 +41,7 @@ in files.
 
 =head1 VERSION
 
-version 0.0.3
+version 0.0.4
 
 =head1 SYNOPSIS
 
@@ -50,8 +52,6 @@ version 0.0.3
 2. From the command line
 
     $ dzil test --release
-
-=encoding utf8
 
 =head1 SUBROUTINES/METHODS
 
